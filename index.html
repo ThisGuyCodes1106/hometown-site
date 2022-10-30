@@ -1,47 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
   <title>Hometown</title>
 </head>
+
 <body>
 
-  <section>
-    <h1>Hometown</h1>
-    <h2>Description of hometown</h2>
-  </section>
+  <div class="hero">
+    <h1 class="hero--heading">Visit Glasgow</h1>
+    <h2 class="hero--subheading">People make Glasgow</h2>
+  </div>
 
-  <section>
-    <h2>Top activites</h2>
-    <div>
+  <div>
+    <h2 class="activites--heading">Top 5 activities to do in Glasgow</h2>
+    <div class="activities">
       <div class="activity">
-        <img src="" alt="">
-        <h3>Activity</h3>
-        <p>Description of activiy</p>
+        <img class="activities--pic" src="images/buchanon.jpg" alt="#">
+        <h3>Go shopping on Buchanon street</h3>
+        <p>This street is a hive of activity from shoppers, business people to street performers. There are plenty of shops, restaurants and attractions along the street. It has a great vibe and just watching the world go by is also a pleasant pastime here. Something for everyone.</p>
       </div>
       <div class="activity">
-        <img src="" alt="">
-        <h3>Activity</h3>
-        <p>Description of activiy</p>
+        <img class="activities--pic" src="images/club.jpg" alt="#">
+        <h3>Experience the nightlife</h3>
+        <p>Named after a famous salsa club, La Cheetah is situated in the basement of Max's in Glasgow's Merchant City. The tiny venue is accessed through the same doors as the public entrance. A small room with a bar, the DJ booth dominates the space. La Cheetah's limited capacity often offers the opportunity to see some of the biggest names in electronic music in an especially intimate environment.</p>
       </div>
       <div class="activity">
-        <img src="" alt="">
-        <h3>Activity</h3>
-        <p>Description of activiy</p>
+        <img class="activities--pic" src="images/kelvingrove.jpg" alt="#">
+        <h3>Take a stroll through Kelvingrove</h3>
+        <p>Kelvingrove Park is a public park located on the River Kelvin in the West End of the city of Glasgow, Scotland, containing the Kelvingrove Art Gallery and Museum.</p>
+        <p class="warning--text">
+          ***Kelvingrove park becomes <span>PvP enabled from 19:00 to 04:00</span>
+        </p>
       </div>
     </div>
-  </section>
+  </div>
 
-  <section>
-    <img src="" alt="">
-    <div>
-      <h2>Your guide</h2>
-      <p>description of guide</p>
-      <p>Guide name</p>
+  <div class="guide--section">
+    <div class="guide--card">
+      <img class="guide--pic" src="/images/guide.jpg" alt="#">
+      <div class="guide--info">
+        <h2>Your guide</h2>
+        <p>"Ok but did you die though?"</p>
+        <p class="guide--name">Stefan "Madz" Madzarac</p>
+      </div>
     </div>
-  </section>
-  
+  </div>
+
 </body>
+
 </html>
